@@ -1,4 +1,5 @@
 # gin-cache
+
 [![Release](https://img.shields.io/github/release/chenyahui/gin-cache.svg?style=flat-square)](https://github.com/chenyahui/gin-cache/releases)
 [![doc](https://img.shields.io/badge/go.dev-doc-007d9c?style=flat-square&logo=read-the-docs)](https://pkg.go.dev/github.com/chenyahui/gin-cache)
 [![goreportcard for gin-cache](https://goreportcard.com/badge/github.com/chenyahui/gin-cache)](https://goreportcard.com/report/github.com/chenyahui/gin-cache)
@@ -7,8 +8,8 @@
 
 English | [🇨🇳中文](README_ZH.md)
 
-A high performance gin middleware to cache http response. Compared to gin-contrib/cache. It has a huge performance improvement.
-
+A high performance gin middleware to cache http response. Compared to gin-contrib/cache. It has a huge performance
+improvement.
 
 # Feature
 
@@ -21,6 +22,7 @@ A high performance gin middleware to cache http response. Compared to gin-contri
 # How To Use
 
 ## Install
+
 ```
 go get -u github.com/chenyahui/gin-cache
 ```
@@ -91,8 +93,6 @@ func main() {
 	}
 }
 ```
-
-
 
 # Benchmark
 

@@ -1,12 +1,12 @@
 package main
 
 import (
+	cache "github.com/idrt1/gin-cache"
 	"time"
 
-	"github.com/chenyahui/gin-cache"
-	"github.com/chenyahui/gin-cache/persist"
 	"github.com/gin-gonic/gin"
-	"github.com/go-redis/redis/v8"
+	"github.com/idrt1/gin-cache/persist"
+	"github.com/redis/go-redis/v9"
 )
 
 func main() {
