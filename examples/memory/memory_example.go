@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/idrt1/gin-cache"
 	"time"
 
 	"github.com/gin-gonic/gin"
